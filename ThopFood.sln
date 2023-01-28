@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThopFood", "ThopFood\ThopFood.csproj", "{09EBA2DF-74CB-4331-8099-E0B94346EAE6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThopFood", "ThopFood\ThopFood.csproj", "{2BE65CFB-9993-40EC-AC9D-E9FD205BE65D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -8,9 +8,9 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{09EBA2DF-74CB-4331-8099-E0B94346EAE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{09EBA2DF-74CB-4331-8099-E0B94346EAE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{09EBA2DF-74CB-4331-8099-E0B94346EAE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{09EBA2DF-74CB-4331-8099-E0B94346EAE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BE65CFB-9993-40EC-AC9D-E9FD205BE65D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BE65CFB-9993-40EC-AC9D-E9FD205BE65D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BE65CFB-9993-40EC-AC9D-E9FD205BE65D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BE65CFB-9993-40EC-AC9D-E9FD205BE65D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
