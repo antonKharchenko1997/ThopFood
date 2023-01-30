@@ -1,0 +1,25 @@
+﻿<MudCard Class="">
+    <MudCardHeader>
+        <CardHeaderContent>
+            @if (Loaded)
+            {
+                <MudText Typo="Typo.h6">@Recipe.Title</MudText>
+                <MudText Typo="Typo.body1">@Recipe.Description</MudText>
+            }
+            else
+            {
+                <MudSkeleton Width="80%" Height="42px;"/>
+                <MudSkeleton Width="100%"/>
+            }
+        </CardHeaderContent>
+
+    </MudCardHeader>
+    @if (Loaded)
+    {
+        <MudCardMedia Image="@Recipe.ImageUrl" Height="250"/>
+    }
+    else
+    {
+        <MudSkeleton SkeletonType="SkeletonType.Rectangle" Height="250px"/>
+    }
+</MudCard>
