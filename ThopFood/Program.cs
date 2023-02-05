@@ -12,4 +12,4 @@ builder.Services.AddInternalServices();
 
 builder.Services.AddScoped(_ => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress), });
 
-await builder.Build().RunAsync();
+await builder.Build().RunAsync().ConfigureAwait(false);

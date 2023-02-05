@@ -4,9 +4,7 @@ namespace ThopFood.Shared;
 
 public partial class MainLayout
 {
-    private  bool _drawerOpen = true;
-
-    public MudTheme MudTheme = new()
+    private readonly MudTheme _mudTheme = new()
     {
         Palette = new Palette
         {
@@ -18,8 +16,10 @@ public partial class MainLayout
         },
     };
 
+    private bool _drawerOpen = true;
+
     private void DrawerToggle()
     {
         _drawerOpen = !_drawerOpen;
-    }    
+    }
 }

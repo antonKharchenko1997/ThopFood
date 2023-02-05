@@ -4,5 +4,5 @@ namespace ThopFood.Contracts.Services;
 
 public interface IRecipeService
 {
-    public Task<RecipeModel> GetRecipe(string id);
+    public Task<RecipeModel?> GetRecipe(string id);
 }

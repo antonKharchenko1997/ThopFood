@@ -1,9 +1,6 @@
-﻿@page "/"
-
-
-<MudGrid Class="mt-6 py-2 mx-4">
+﻿<MudGrid Class="mt-6 py-2 mx-4">
     <MudItem xs="1"></MudItem>
     <MudItem xs="6">
-        <RecipeTitleComponent Recipe="@_recipe"/>
+        <RecipeTitleCardComponent Recipe="@_recipe" OnRecipeChange="@(() => { Console.WriteLine("Hello"); })"/>
     </MudItem>
 </MudGrid>

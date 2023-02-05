@@ -5,7 +5,7 @@ namespace ThopFood.Services;
 
 public class RecipeService : IRecipeService
 {
-    public Task<RecipeModel> GetRecipe(string id)
+    public Task<RecipeModel?> GetRecipe(string id)
     {
         return Task.FromResult(new RecipeModel
         {
